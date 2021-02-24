@@ -20,7 +20,7 @@ header {
 
 .top-left-links, .top-right-links {
     padding: 5px;
-    margin: 10px;
+    margin: 4px;
     color: #222;
 }
 
@@ -51,4 +51,89 @@ nav {
     padding: 9px 15px;
     color: #fff;
     cursor: pointer;
+    min-width: 96px; 
+}
+
+#main-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+#search-div{
+    display: flex;
+    justify-content: center;
+}
+
+#search-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 80%;
+}
+
+#search-bar-holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #DFE1E5;
+}
+
+#search-bar-holder:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#search-bar {
+    display: block;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    display: flex;
+    margin-top: 4px;
+    height: 34px;
+    font-size: 16px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#button-holder{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-buttons {
+    cursor: pointer;
+    text-align: center;
+    min-width: 54px;
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #3C4043;
+    border-radius: 4px;
+    border: 1px solid #F8F9FA;
+    background-color: #F8F9FA;
+}
+
+.search-buttons:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #F8F9FA;
+    border: 1px solid #DADCE0;
+    color: #202124;
+}
+
+.search-buttons:focus {
+    border: 1px solid #4D90FE;
+    outline: none;
 }
