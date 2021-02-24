@@ -57,7 +57,7 @@ nav {
 #main-logo {
     display: flex;
     justify-content: center;
-    padding-top: 30%;
+    padding-top: 11%;
 }
 
 #search-div{
@@ -71,6 +71,7 @@ nav {
     justify-content: center;
     margin-top: 30px;
     width: 80%;
+    max-width: 600px;
 }
 
 #search-bar-holder {
@@ -136,4 +137,61 @@ nav {
 .search-buttons:focus {
     border: 1px solid #4D90FE;
     outline: none;
+}
+
+#bottom-half {
+    display: flex;
+    justify-content: center;
+    min-height: 280px;
+}
+
+#alternate-language-text {
+    font-size: 13px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    color: rgba(0, 0, 0, .54);
+    background-color: #F2F2F2;
+}
+
+#footer-top-split {
+    display: flex;
+    border-bottom: 1px solid #DADCE0;
+}
+
+#location-text {
+    margin-left: 35px;
+}
+
+
+#footer-bot-split {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.both-bot-sides {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+}
+
+#left-bot-split {
+    justify-content: center;
+}
+
+#right-bot-split {
+    justify-content: center;
+}
+
+.bot-links {
+    margin-left: 40px;
+    color: 70757A;
 }
