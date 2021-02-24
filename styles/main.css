@@ -32,6 +32,12 @@ header {
     width: 90%;
 }
 
+#google-drop-down {
+    width: 30px;
+    height: 30px;
+    
+}
+
 nav {
     display: flex; 
 }
